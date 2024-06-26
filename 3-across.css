@@ -25,6 +25,9 @@
   padding: 30px 0 0;
   color: #000;
 }
+.citrusStylesSE-nobr {
+  white-space: nowrap;
+}
 @media all and (max-width: 767px) {
   .citrusStylesSE-sheba__education {
     justify-content: flex-start;

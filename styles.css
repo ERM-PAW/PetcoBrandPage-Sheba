@@ -2,3 +2,155 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.citrusStylesSE-position-relative {
+  position: relative;
+}
+
+.citrusStylesSE-__heroImage-box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.citrusStylesSE-__heroImage-copy {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto 5%;
+  column-gap: 60px;
+}
+
+.citrusStylesSE-hero-left {
+  column-gap: 40px;
+}
+
+.citrusStylesSE-spotlightLogo img {
+  width: 100%;
+  max-width: 160px;
+}
+
+.citrusStylesSE-carousel--text h2 {
+  font-size: 25px;
+  color: #fff;
+  padding: 0 0 10px;
+  line-height: 25px;
+  max-width: 530px;
+}
+.citrusStylesSE-carousel--text p {
+  max-width: 370px;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+}
+
+.citrusStylesSE-carousel--text .citrusStylesSE-btn-secondary-white {
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+@media all and (min-width: 922px) and (max-width: 1280px) {
+  .citrusStylesSE-spotlightLogo img {
+    width: 100%;
+    max-width: 80px;
+  }
+  .citrusStylesSE-__heroImage-copy {
+    width: 50%;
+    column-gap: 30px;
+  }
+  .citrusStylesSE-carousel--text .citrusStylesSE-btn-secondary-white {
+    margin-top: 10px;
+  }
+  .citrusStylesSE-carousel--text
+    .citrusStylesSE-btn-secondary-white
+    .citrusStylesSE-url {
+    padding: 0.7em 0;
+    width: 180px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .citrusStylesSE-spotlightLogo img {
+    max-width: 70px;
+  }
+  .citrusStylesSE-__heroImage-copy {
+    width: 65%;
+    margin: auto 2%;
+    column-gap: 20px;
+  }
+  .citrusStylesSE-carousel--text h2 {
+    font-size: 16px;
+    color: #fff;
+    padding: 0 0 10px;
+    line-height: 18px;
+    max-width: max-content;
+  }
+  .citrusStylesSE-carousel--text p {
+    max-width: 300px;
+    font-size: 12px;
+  }
+  .citrusStylesSE-carousel--text .citrusStylesSE-btn-secondary-white {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .citrusStylesSE-carousel--text
+    .citrusStylesSE-btn-secondary-white
+    .citrusStylesSE-url {
+    text-align: left;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .citrusStylesSE-__heroImage-copy {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto 0%;
+    width: 100%;
+  }
+
+  .citrusStylesSE-hero-left {
+    width: 100%;
+    justify-content: center;
+  }
+  .citrusStylesSE-spotlightLogo {
+    align-self: center;
+  }
+  .citrusStylesSE-spotlightLogo img {
+    max-width: 84px;
+  }
+  .citrusStylesSE-carousel--text {
+    padding: 0 20px;
+  }
+
+  .citrusStylesSE-carousel--text h2 {
+    max-width: 100%;
+    font-size: calc(var(--citrusStylesSE-text-font-size-xlarge) - 1px);
+    margin: 0 !important;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .citrusStylesSE-carousel--text p {
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+  }
+  .citrusStylesSE-carousel--text .citrusStylesSE-btn-secondary-white {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .citrusStylesSE-carousel--text h2 {
+    font-size: calc(var(--citrusStylesSE-text-font-size-xlarge) - 4px);
+    padding-top: 10px;
+  }
+  .citrusStylesSE-carousel--text p {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .citrusStylesSE-carousel--text .citrusStylesSE-btn-secondary-white {
+    margin-top: 10px;
+  }
+}
