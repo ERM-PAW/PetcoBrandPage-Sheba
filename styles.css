@@ -32,7 +32,7 @@ body {
   max-width: 160px;
 }
 
-.citrusStylesSE-carousel--text h2 {
+.citrusStylesSE-carousel--text h1 {
   font-size: 25px;
   color: #fff;
   padding: 0 0 10px;
@@ -79,7 +79,7 @@ body {
     margin: auto 2%;
     column-gap: 20px;
   }
-  .citrusStylesSE-carousel--text h2 {
+  .citrusStylesSE-carousel--text h1 {
     font-size: 16px;
     color: #fff;
     padding: 0 0 10px;
@@ -124,7 +124,7 @@ body {
     padding: 0 20px;
   }
 
-  .citrusStylesSE-carousel--text h2 {
+  .citrusStylesSE-carousel--text h1 {
     max-width: 100%;
     font-size: calc(var(--citrusStylesSE-text-font-size-xlarge) - 1px);
     margin: 0 !important;
@@ -142,7 +142,7 @@ body {
   }
 }
 @media screen and (max-width: 360px) {
-  .citrusStylesSE-carousel--text h2 {
+  .citrusStylesSE-carousel--text h1 {
     font-size: calc(var(--citrusStylesSE-text-font-size-xlarge) - 4px);
     padding-top: 10px;
   }
