@@ -23,8 +23,8 @@
 
 .citrusStylesSE-sheba .citrusStylesSE-disclaimer {
   padding: 30px 0 0;
+  color: #000;
 }
-
 @media all and (max-width: 767px) {
   .citrusStylesSE-sheba__education {
     justify-content: flex-start;
@@ -32,19 +32,20 @@
   .citrusStylesSE-card {
     width: 177px;
   }
-  .citrusStylesSE-grid__cell {
+  .citrusStylesSE-sheba__education .citrusStylesSE-grid__cell {
     padding-right: 34px;
     padding-left: 34px;
   }
-  .citrusStylesSE-grid__cell:first-child {
+  .citrusStylesSE-sheba__education .citrusStylesSE-grid__cell:first-child {
     padding-left: 68px !important;
   }
 
-  .citrusStylesSE-grid__cell:last-child {
+  .citrusStylesSE-sheba__education .citrusStylesSE-grid__cell:last-child {
     padding-right: 68px !important;
   }
   .citrusStylesSE-sheba .citrusStylesSE-disclaimer {
     padding: 20px;
+    text-align: center;
   }
 }
 /* End 3-Across */
