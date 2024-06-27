@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.citrusStylesSE-section__title .citrusStylesSE-header2 {
+  font-size: var(--citrusStylesSE-text-font-size-large);
+}
 .citrusStylesSE-position-relative {
   position: relative;
 }
@@ -307,6 +309,7 @@ body {
   color: #444;
   cursor: pointer;
   padding: calc(var(--citrusStylesSE-spacing-medium) + 2px);
+  padding-left: 0;
   width: 100%;
   border: none;
   text-align: left;
@@ -324,7 +327,7 @@ body {
   margin-left: 0px;
   font-size: calc(
     var(--citrusStylesSE-text-font-size-super) +
-      var(--citrusStylesSE-text-font-size-large) - 2px
+      var(--citrusStylesSE-text-font-size-large) - 16px
   );
   cursor: pointer;
   transition: 0.4s;
@@ -340,6 +343,7 @@ body {
 
 .citrusStylesSE__accordionPanel {
   padding: 0 18px;
+  padding-left: 0;
   background-color: var(--citrusStylesSE-white);
   max-height: 0;
   overflow: hidden;
@@ -347,17 +351,6 @@ body {
 }
 
 /* Custom  Css Accordion Panel*/
-.citrusStylesSE-accordion-title-pannel {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-}
-
-.citrusStylesSE-accordion-title-pannel h2 {
-  font-size: var(--citrusStylesSE-text-font-size-xlarge);
-  line-height: calc(var(--citrusStylesSE-text-font-size-super) - 2px);
-  color: var(--citrusStylesSE-primary-navy);
-}
-
-.citrusStylesSE-accordion-title-pannel p,
 .citrusStylesSE__accordionPanel p {
   font-size: var(--citrusStylesSE-text-font-size-medium);
   line-height: calc(var(--citrusStylesSE-text-font-size-medium) + 4px);
@@ -373,7 +366,7 @@ body {
 }
 
 .citrusStylesSE-accordion--item button {
-  font-size: calc(var(--citrusStylesSE-text-font-size-medium) + 4px);
+  font-size: var(--citrusStylesSE-text-font-size-large);
   line-height: calc(var(--citrusStylesSE-spacing-large) + 1px);
   color: var(--citrusStylesSE-primary-navy);
 }
@@ -407,11 +400,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .citrusStylesSE-text-content {
-    padding-left: 0;
-  }
-
-  .citrusStylesSE-accordion-title-pannel {
-    padding-left: calc(var(--citrusStylesSE-spacing-medium) + 2px);
+    padding-left: 10px;
   }
 
   .citrusStylesSE-accordion--button {
@@ -456,11 +445,6 @@ body {
   }
 }
 @media screen and (max-width: 350px) {
-  .citrusStylesSE-accordion-title-pannel h2 {
-    font-size: calc(var(--citrusStylesSE-text-font-size-medium) + 4px);
-  }
-
-  .citrusStylesSE-accordion-title-pannel p,
   .citrusStylesSE__accordionPanel p {
     font-size: calc(var(--citrusStylesSE-text-font-size-medium) - 2px);
   }
